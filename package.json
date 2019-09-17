@@ -1,0 +1,22 @@
+{
+  "name": "fetch-vis",
+  "version": "0.0.1",
+  "description": "fetch兼容版本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run tswatch",
+    "tsc": "tsc",
+    "tswatch": "tsc -w"
+  },
+  "author": "vis",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "qs": "^6.8.0",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.5.3"
+  }
+}
