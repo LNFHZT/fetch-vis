@@ -1,13 +1,27 @@
 {
   "name": "fetch-vis",
   "version": "0.0.1",
-  "description": "fetch兼容版本",
-  "main": "index.js",
+  "description": "fetch 封装 支持axios类似相关配置项，支持vue 引入，对不支持fetch 的浏览器做了兼容处理",
+  "main": "./build/index.js",
+  "keywords": [
+    "axios",
+    "fetch",
+    "ajax",
+    "request",
+    "http",
+    "vue",
+    "请求"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run tswatch",
     "tsc": "tsc",
     "tswatch": "tsc -w"
+  },
+  "homepage": "https://github.com/LNFHZT/fetch-vis",
+  "bugs": {
+    "url": "https://github.com/LNFHZT/fetch-vis/issues",
+    "email": "LNFHZT@163.com"
   },
   "author": "vis",
   "license": "MIT",
